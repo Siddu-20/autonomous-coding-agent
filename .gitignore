@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Linters and type checkers
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Logs
+*.log
+logs/
+
+# IDE and editor
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
